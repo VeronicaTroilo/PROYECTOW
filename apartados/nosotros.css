@@ -1,0 +1,108 @@
+*{    
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+nav{ 
+    border: 2px solid rgb(12, 12, 12);
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: medium;
+}
+.clasemenu {
+    background-color: #5b9cd2;
+    color:#453e5a ;
+    font-size:small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagenlogo{ 
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;}
+
+.nosotros{
+    width: 100%;
+    padding: 10px;
+    background-color: #747375f7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.imagennosotros{
+    width: 100%;
+}
+      
+.titulonosotros{
+    padding: 5px;
+    
+    font-size: x-large;
+    color: #103e64;
+    text-align: center;
+}
+.parrafo1{
+    padding: 10px ;
+    font-size: x-large;
+    color: #0a3b66;
+    text-align: center;
+
+}
+.parrafo2{
+   
+    font-size: large;
+    color: #030759;
+    text-align: center;
+}
+
+
+    
+.galeria{
+    
+    padding: 10px;
+    border: 2px solid rgb(7, 7, 7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.imagenesgaleria{ 
+    width: 80%;
+    border: 2px solid white;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    /*flex-wrap: wrap;*/
+    
+}
+
+
+
+
+footer{    
+    color: white;
+    background: black;
+    width: 100%;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: x-small;
+}
+.listafooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    
+    gap: 20px;
+    
+    
+}
+.iconcontacto{
+    max-height: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
